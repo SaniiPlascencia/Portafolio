@@ -1,0 +1,265 @@
+
+
+.principal{
+    /*background: rgb(88, 170, 248);*/
+    margin: -8px;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.conteiner{
+    min-height : 100px ;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.logo{
+    display: flex;
+    height: 100px; 
+}
+
+
+.lista{
+    font-weight: 900;
+    padding-right: 20px;    
+}
+
+nav a{
+    padding-right: 25px;
+}
+
+nav a:hover{
+    color: rgb(61, 32, 188);
+    
+}
+
+@media (max-width:650px){
+    .conteiner{
+        flex-direction: column;
+    }
+
+    .lista{
+        padding: 10px 0px;
+    }
+}
+
+.introduccion{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.foto{
+    display: inline-block;
+    height: 300px;
+}
+
+.introduccionText{
+    
+    display: inline-block;
+    align-self: center;
+    margin-left: 30px; 
+}
+
+.nombreYintroduccion{
+    width: 400px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.descripcion{
+    font-size: 20px;
+    width: 400px;
+    box-shadow: 3px 3px 0 rgb(181, 181, 181); 
+}
+
+.listaRedes{
+    
+    display:flex ;
+    width: 350px;
+  justify-content: flex-end;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.redes{
+    text-shadow: 3px 3px 0 rgb(224, 224, 224);
+    display: inline-block; 
+}
+
+.segundaSeccion{
+    background-color: rgb(191, 252, 252);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sobremi{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;    
+}
+
+h1{
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.ResumensobreMi{
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.terceraSeccion{
+    background-color: rgb(238, 238, 238);   
+    padding-top: 30PX;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.TituloSkills{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.CuadrosSkills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.SkillsSolos{ 
+    display: inline-block;
+    background-color: aquamarine;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 120px;
+    padding-right: 90px;
+    margin:10px;   
+}
+
+.CuartaSeccion{
+    background-color: rgb(238, 238, 238);   
+    padding-top: 30PX;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.TituloHobbies{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.CuadrosHobbies{
+    display: flex;
+    justify-content: space-around;
+}
+
+.HobbiesSolos{
+    display: inline-block;
+    background-color: aquamarine;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    padding-top: 120px;
+    padding-right: 90px;
+    margin:10px;  
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.TituloPro{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.CONTENEDORESPROS{
+    display: flex;
+    justify-content:space-around;
+}
+
+.contenedorPro{
+    display: inline-block;
+    background-color: rgb(191, 252, 252);
+    padding-bottom: 150px;
+    padding-left: 30px;
+    padding-top: 150px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+    margin-left:50px; 
+}
+
+.contenedorpro2{
+    display: inline-block;
+    background-color: rgb(191, 252, 252);
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-top: 150px;
+    padding-right: 40px;
+    padding-bottom: 150px;
+    margin-left:40px; 
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+}
+
+.Sextaseccio{
+    background: #ff0000;
+
+}
+
+.TituloQuestionario{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.RocketFooter{   
+    height: 250px; 
+    width: 250px;
+    
+}
